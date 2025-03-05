@@ -97,6 +97,18 @@ server:
     ## configure optional Agent interceptors
 #    interceptors:
 #        httplog: {}
+    # Sample analytics interceptor configuration (commented out)
+    # Uncomment and configure these settings when you're ready to enable analytics tracking
+    #
+    # interceptors:
+    #     # Your other interceptors can remain here
+    #     httplog: {}
+    #     
+    #     # Analytics interceptor configuration
+    #     analytics:
+    #       trackingID: "G-XXXXXXXXXX"  # Replace with your actual Google Analytics tracking ID
+    #       enabled: true               # Set to false to disable tracking
+    #       # endpointURL: ""           # Optional: override the default GA endpoint
 
 ##
 ## api service configuration

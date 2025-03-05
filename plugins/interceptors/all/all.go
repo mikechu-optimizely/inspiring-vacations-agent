@@ -20,4 +20,6 @@ package all
 import (
 	// Register the plugin middleware
 	_ "github.com/optimizely/agent/plugins/interceptors/httplog"
+	// Register the analytics interceptor
+	_ "github.com/optimizely/agent/plugins/interceptors/analytics"
 )
